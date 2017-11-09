@@ -1,0 +1,185 @@
+
+
+body{
+	margin:0;
+	padding:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1{ 
+   text-align:center
+}
+
+#One {
+	position:relative;
+
+}
+	
+#Two {
+	position:relative;
+}
+
+#Three {
+	position:relative;
+}
+
+
+#B{
+	position:relative;
+	top:-10px;
+	left:calc(100% - 90px);
+	width:100px;
+	height:40px;
+	background-color:#EF2F93;
+	border:1px solid black;
+	text-align:center;
+	font-size:16px;
+	padding-top:5px;
+	
+}
+
+#C{
+	position:relative;
+	top:-10px;
+	left:calc(100% - 90px);
+	width:100px;
+	height:40px;
+	background-color:#FB9029;
+	border:1px solid black;
+	text-align:center;
+	font-size:16px;
+	padding-top:5px;
+}
+
+#S{
+	position:relative;
+	top:-10px;
+	left:calc(100% - 90px);
+	width:100px;
+	height:40px;
+	background-color:#00C3FF;
+	border:1px solid black;
+	text-align:center;
+	font-size:16px;
+	padding-top:5px;
+}
+
+.content{
+	position:relative;
+
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #One, #Two, #Three {
+    float: left;
+    border: 1px solid black;
+  }
+  
+  #One {
+    width: 31%;
+	height:auto;
+	background-color:#888888;
+	word-wrap: break-word; 
+	word-break: normal;
+	padding:10px;
+	margin:1%;
+  }
+  
+   #Two {
+    width: 31%;
+	height:auto;
+	background-color:#888888;
+	word-wrap: break-word; 
+	word-break: normal;
+	padding:10px;
+	margin:1%;
+
+  }
+   #Three {
+    width: 31%;
+	height:auto;
+	background-color:#888888;
+	word-wrap: break-word; 
+	word-break: normal;
+    padding:10px;
+	margin:1%;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #One, #Two, #Three {
+    float: left;
+    border: 1px solid black;
+  }
+    #One {
+    width: 48%;
+	background-color:#888888;
+	word-wrap: break-word; 
+	word-break: normal;
+	padding:10px;
+	margin:1%;
+	
+  }
+   #Two {
+    width: 48%;
+	background-color:#888888;
+	word-wrap: break-word; 
+	word-break: normal;
+	padding:10px;
+	margin:1%;
+	
+  }
+   #Three {
+    width: 98%;
+	background-color:#888888;
+	word-wrap: break-word; 
+	word-break: normal;
+	padding:10px;
+	margin:1%;
+   }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  #One, #Two, #Three {
+    float: left;
+    border: 1px solid black;
+  }
+  
+  #One {
+    width: 98%;
+	background-color:#888888;
+	word-wrap: break-word; 
+	word-break: normal;
+	padding:10px;
+	margin:1%;
+
+  }
+  
+   #Two {
+    width: 98%;
+	background-color:#888888;
+	word-wrap: break-word; 
+	word-break: normal;
+	padding:10px;
+	margin:1%;
+
+  }
+   #Three {
+    width: 98%;
+	background-color:#888888;
+	word-wrap: break-word; 
+	word-break: normal;
+    padding:10px;
+	margin:1%;
+  }
+}
